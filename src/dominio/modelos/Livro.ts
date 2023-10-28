@@ -84,7 +84,7 @@ class Livro extends Model {
 
     @Column({
         field: "autores",
-        type: DataType.ARRAY(DataType.STRING(180)),
+        type: DataType.JSON,
         allowNull: false,
         validate: {
             notEmpty: {

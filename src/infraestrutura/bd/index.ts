@@ -42,6 +42,4 @@ const gerarConexaoBDSequelize = async (): Promise<Sequelize> => {
     return conexao;
 };
 
-
-
 export { gerarConexaoBDSequelize };
